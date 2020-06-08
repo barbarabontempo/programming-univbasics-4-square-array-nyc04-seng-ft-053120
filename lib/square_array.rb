@@ -1,3 +1,8 @@
-def square_array(array)
-  # your code here
+
+
+
+def square_array(numbers, new_numbers)
+numbers.length.times do |index|
+  new_numbers.push(numbers[index] ** 2)
 end
+puts new_numbers
